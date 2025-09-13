@@ -1,0 +1,30 @@
+.logo {
+    width: 150px;
+    height: 130px;
+
+}
+
+.logoText {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Caveat", cursive;
+    color: #333;
+    letter-spacing: 0.5px;
+    margin-left: 15px;
+}
+
+.searchInput {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.icons {
+    font-size: 35px;
+    margin: 0 20px;
+    cursor: pointer;
+}

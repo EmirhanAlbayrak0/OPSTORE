@@ -1,0 +1,61 @@
+.profil {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+}
+
+.profil h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.profil-logo {
+    width: 260px;
+    height: auto;
+    margin: 10px 0 30px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.profil-logo:hover {
+    transform: scale(1.05);
+}
+
+.profil-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 260px;
+    margin-top: auto;
+}
+
+.profil button {
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #3498db;
+    color: #fff;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profil button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

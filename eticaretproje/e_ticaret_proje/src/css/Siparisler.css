@@ -1,0 +1,97 @@
+.siparisler-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.siparisler-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.siparis-card {
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-bottom: 24px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.siparis-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.siparis-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 8px;
+}
+
+.siparis-card p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #555;
+}
+
+.siparis-urunler {
+    margin-top: 16px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.siparis-urunler h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #2c3e50;
+}
+
+.siparis-urun {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    background: #fafafa;
+    padding: 12px;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.siparis-urun:hover {
+    background: #f0f0f0;
+}
+
+.siparis-urun img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.siparis-urun div {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.siparis-urun div p {
+    margin: 2px 0;
+}
+
+.siparis-total {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #27ae60;
+    text-align: right;
+}

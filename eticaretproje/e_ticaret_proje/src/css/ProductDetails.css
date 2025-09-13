@@ -1,0 +1,115 @@
+.product-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.product-detail-image {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+    background: #f8f8f8;
+}
+
+.product-detail-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.product-detail-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 18px;
+}
+
+.product-detail-desc {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 24px;
+    line-height: 1.7;
+}
+
+.product-detail-price {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-bottom: 32px;
+}
+
+.product-detail-buy-btn {
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: auto;
+}
+
+.product-detail-buy-btn:hover {
+    background: #c0392b;
+}
+
+@media (max-width: 900px) {
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 8px;
+    }
+
+    .product-detail-image {
+        width: 90vw;
+        max-width: 340px;
+        height: 240px;
+    }
+}
+
+.product-detail-counter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.counter-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    background: #ecf0f1;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.counter-btn:hover {
+    background: #d0d3d4;
+}
+
+.counter-value {
+    min-width: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.stock-info {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}

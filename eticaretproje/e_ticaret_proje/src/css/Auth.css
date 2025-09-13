@@ -1,0 +1,53 @@
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Yatay ortalama */
+    text-align: center;
+    min-height: 400px;
+}
+
+.auth-container input {
+    width: 100%;
+    /* kutu genişliğine göre */
+    max-width: 300px;
+    /* maksimum genişlik */
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: all 0.25s ease;
+}
+
+.auth-container div button {
+    width: 100%;
+    /* kutu genişliğine göre */
+    max-width: 300px;
+    /* maksimum genişlik */
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #3498db;
+    color: #fff;
+    transition: all 0.25s ease;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}

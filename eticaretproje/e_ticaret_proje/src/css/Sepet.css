@@ -1,0 +1,122 @@
+.sepet-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.sepet-container h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sepet-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sepet-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.sepet-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.sepet-item span {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.sepet-item button {
+    padding: 8px 14px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sepet-item button:hover {
+    background: #c0392b;
+}
+
+.sepet-container h3 {
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #27ae60;
+    margin-top: 20px;
+}
+
+/* Responsive uyum */
+@media (max-width: 768px) {
+    .sepet-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .sepet-item img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    .sepet-item span {
+        font-size: 0.95rem;
+    }
+
+    .sepet-container h3 {
+        text-align: center;
+    }
+}
+
+.purchase-button {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 25px;
+    background: #27ae60;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.purchase-button:hover {
+    background: #219150;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.purchase-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
