@@ -13,7 +13,6 @@ function Purchase() {
     const { cartItems } = useSelector((state) => state.cart);
     const [user, setUser] = useState(null);
 
-    // Form verisi
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
